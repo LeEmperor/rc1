@@ -1,8 +1,9 @@
 m255
 K4
 z2
-Z0 !s12c _opt1
-Z1 !s99 nomlopt
+!s12c _opt2
+Z0 !s99 nomlopt
+Z1 !s12c _opt1
 R0
 R1
 R0
@@ -11,14 +12,15 @@ R0
 R1
 R0
 R1
+R0
 Z2 !s12c _opt
-R1
+R0
 R2
-R1
+R0
 R2
-R1
+R0
 R2
-R1
+R0
 !s11f vlog 2024.3 2024.09, Sep 10 2024
 13
 !s112 1.1
@@ -32,7 +34,7 @@ T_opt
 VT64nNF7MWT^>DPJlcM@033
 04 20 4 work address_generator_tb fast 0
 =7-000ae431a4f1-68c8c70a-902f2-4f45
-R1
+R0
 Z4 !s12f OEM100
 Z5 !s12b OEM100
 !s124 OEM10U2 
@@ -45,45 +47,61 @@ R3
 T_opt1
 !s110 1757992582
 VAHk@KzflX:^2Pjl6J8@`02
-04 11 4 work template_tb fast 0
+Z10 04 11 4 work template_tb fast 0
 =5-000ae431a4f1-68c8d685-ea5e5-5efa
-R1
+R0
 R4
 R5
-!s124 OEM10U4 
+Z11 !s124 OEM10U4 
 R6
 R7
 R8
 n@_opt1
 R9
+R3
+T_opt2
+!s110 1758039916
+VeF^33:1C;c4]LaOi`4Hi_3
+R10
+=1-000ae431a4f1-68c98f6b-dedae-f84
+R0
+R4
+R5
+R11
+R6
+o-quiet -auto_acc_if_foreign -work work
+R8
+n@_opt2
+R9
+R3
 vaddress_generator
 2/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
-Z10 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z11 !s110 1757992581
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 !s110 1758040045
 !i10b 1
 !s100 CDXaIonK[APNKRiX>O6X`0
 I0j7K3anz4kO_d6^M31f^L0
 S1
 R3
-w1757990813
+Z14 w1757992673
 8/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
-!i122 71
+!i122 83
 L0 5 32
-Z12 VDg1SIo80bB@j0V0VzS_@n1
-Z13 OL;L;2024.3;79
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+Z16 OL;L;2024.3;79
 r1
 !s85 0
 31
-Z14 !s108 1757992581.000000
+Z17 !s108 1758040045.000000
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv|
 !i113 0
-Z15 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R8
 vaddress_generator_tb
 2/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv
-R10
+R12
 !s110 1757991495
 !i10b 1
 !s100 PNCN4RO2le6eO<Ya@`UOB0
@@ -95,8 +113,8 @@ w1757988993
 F/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv
 !i122 33
 L0 5 65
-R12
-R13
+R15
+R16
 r1
 !s85 0
 31
@@ -104,80 +122,80 @@ r1
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv|
 !i113 0
-R15
+R18
 R8
 vcontroller
 2/home/wayne/FPGA_stuff/rc1/lab4/controller.sv
-R10
-R11
+R12
+R13
 !i10b 1
 !s100 ADjM5HG_BnVoInAKE@z5d3
 ISI?i<IXEEM[52;Eh>mWhN3
 S1
 R3
-w1757992554
+R14
 8/home/wayne/FPGA_stuff/rc1/lab4/controller.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/controller.sv
-!i122 72
+!i122 84
 L0 5 64
-R12
-R13
+R15
+R16
 r1
 !s85 0
 31
-R14
+R17
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/controller.sv|
 !i113 0
-R15
+R18
 R8
 vtemplate_tb
 2/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
-R10
-R11
+R12
+R13
 !i10b 1
 !s100 0Z3lib]==a=WjE?B<<oS:2
 IaaUZfRNM@N1Ie@1^PgGk72
 S1
 R3
-w1757992580
+R14
 8/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
-!i122 73
+!i122 85
 L0 5 58
-R12
-R13
+R15
+R16
 r1
 !s85 0
 31
-R14
+R17
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv|
 !i113 0
-R15
+R18
 R8
 vtoplevel
 2/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv
-R10
-R11
+R12
+!s110 1758040046
 !i10b 1
 !s100 XB>;6>_Rmo[JF5on:`>>V3
 I[CPWUF_KEonlRA<?TZ?=I1
 S1
 R3
-w1757992003
+R14
 8/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv
-!i122 74
+!i122 86
 L0 5 31
-R12
-R13
+R15
+R16
 r1
 !s85 0
 31
-R14
+R17
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv|
 !i113 0
-R15
+R18
 R8
