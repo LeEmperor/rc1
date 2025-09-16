@@ -1,0 +1,457 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+pwd
+# /home/wayne/FPGA_stuff/rc1/lab4/modelsim_proj
+clear
+# [H[J
+.main clear
+# Loading project lab4
+.main clear
+project compileall
+# Compile of address_generator.sv was successful.
+pwd
+# /home/wayne/FPGA_stuff/rc1/lab4/modelsim_proj
+alias c=¨project compileall¨
+c
+# ambiguous command name "c": c=¨project calcDefaultSignalModeValue canvas capacity_image capstats case cat catch cd cdbg cdbg_mode cdbg_wait_for_starting cdump cgroup_image chan change change_dir change_oem_title_bar check check_svver_available check_viewer checkbutton checkicon_image checkpoint checkpointDone checkpointError ciid class class_image cleanupGui clipboard clock clock_image close closedFolder clp cmdSplit cmpl_add_fbox_item cmpl_arrange_fbox cmpl_create_fbox cmpl_do_compile cmpl_do_edit cmpl_doubleclick cmpl_empty_fbox cmpl_extendselect_fbox cmpl_go_up cmpl_select_fbox cmpl_select_filter cmpl_select_textitem cmpl_show_error cmpl_show_error_nc cmpl_show_last_error cmpl_unselectall_fbox cmpl_update_dir cmpl_update_fbox code column2tok comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist concat config configExcludeCovUpdate config_every_button config_image configbody configure connect_to_kernel console cont context contextOf continue contract controlbarValidateRunLengthFromInput convertVlogExtId coroutine count_image cover_save_create_ucdb coverage createSourceInfo create_rpc_server
+project compileall
+# Compile of address_generator.sv was successful.
+clear
+# [H[J
+ls
+# aliases
+# bruh_script.do
+# compile_script.do
+# etch19059
+# lab4.mpf
+# transcript
+# work
+.mian clear
+# invalid command name ".mian"
+.main clear
+ls
+# aliases
+# bruh_script.do
+# compile_script.do
+# etch19059
+# lab4.mpf
+# transcript
+# work
+alias c
+# alias: c not defined
+alias c=´project compileall´
+c
+# ambiguous command name "c": c=¨project c=´project calcDefaultSignalModeValue canvas capacity_image capstats case cat catch cd cdbg cdbg_mode cdbg_wait_for_starting cdump cgroup_image chan change change_dir change_oem_title_bar check check_svver_available check_viewer checkbutton checkicon_image checkpoint checkpointDone checkpointError ciid class class_image cleanupGui clipboard clock clock_image close closedFolder clp cmdSplit cmpl_add_fbox_item cmpl_arrange_fbox cmpl_create_fbox cmpl_do_compile cmpl_do_edit cmpl_doubleclick cmpl_empty_fbox cmpl_extendselect_fbox cmpl_go_up cmpl_select_fbox cmpl_select_filter cmpl_select_textitem cmpl_show_error cmpl_show_error_nc cmpl_show_last_error cmpl_unselectall_fbox cmpl_update_dir cmpl_update_fbox code column2tok comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist concat config configExcludeCovUpdate config_every_button config_image configbody configure connect_to_kernel console cont context contextOf continue contract controlbarValidateRunLengthFromInput convertVlogExtId coroutine count_image cover_save_create_ucdb coverage createSourceInfo create_rpc_server
+c
+# ambiguous command name "c": c=¨project c=´project calcDefaultSignalModeValue canvas capacity_image capstats case cat catch cd cdbg cdbg_mode cdbg_wait_for_starting cdump cgroup_image chan change change_dir change_oem_title_bar check check_svver_available check_viewer checkbutton checkicon_image checkpoint checkpointDone checkpointError ciid class class_image cleanupGui clipboard clock clock_image close closedFolder clp cmdSplit cmpl_add_fbox_item cmpl_arrange_fbox cmpl_create_fbox cmpl_do_compile cmpl_do_edit cmpl_doubleclick cmpl_empty_fbox cmpl_extendselect_fbox cmpl_go_up cmpl_select_fbox cmpl_select_filter cmpl_select_textitem cmpl_show_error cmpl_show_error_nc cmpl_show_last_error cmpl_unselectall_fbox cmpl_update_dir cmpl_update_fbox code column2tok comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist concat config configExcludeCovUpdate config_every_button config_image configbody configure connect_to_kernel console cont context contextOf continue contract controlbarValidateRunLengthFromInput convertVlogExtId coroutine count_image cover_save_create_ucdb coverage createSourceInfo create_rpc_server
+c
+# ambiguous command name "c": c=¨project c=´project calcDefaultSignalModeValue canvas capacity_image capstats case cat catch cd cdbg cdbg_mode cdbg_wait_for_starting cdump cgroup_image chan change change_dir change_oem_title_bar check check_svver_available check_viewer checkbutton checkicon_image checkpoint checkpointDone checkpointError ciid class class_image cleanupGui clipboard clock clock_image close closedFolder clp cmdSplit cmpl_add_fbox_item cmpl_arrange_fbox cmpl_create_fbox cmpl_do_compile cmpl_do_edit cmpl_doubleclick cmpl_empty_fbox cmpl_extendselect_fbox cmpl_go_up cmpl_select_fbox cmpl_select_filter cmpl_select_textitem cmpl_show_error cmpl_show_error_nc cmpl_show_last_error cmpl_unselectall_fbox cmpl_update_dir cmpl_update_fbox code column2tok comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist concat config configExcludeCovUpdate config_every_button config_image configbody configure connect_to_kernel console cont context contextOf continue contract controlbarValidateRunLengthFromInput convertVlogExtId coroutine count_image cover_save_create_ucdb coverage createSourceInfo create_rpc_server
+alias comp=¨project compileall¨
+comp
+# ambiguous command name "comp": comp=¨project comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist
+comp_opt_exclusive 
+# wrong # args: should be "comp_opt_exclusive v_list"
+.main clear
+alias clear=¨.main clear¨ 
+clear
+# [H[J
+clear
+# [H[J
+.main clear
+clear
+# [H[J
+clear=¨.main 
+# invalid command name "clear¨"
+clear=¨.main 
+# invalid command name "clear¨"
+.main clear
+alias comp
+# alias: comp not defined
+comp
+# ambiguous command name "comp": comp=¨project comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist
+comp
+# ambiguous command name "comp": comp=¨project comp_opt_exclusive compare compareOptionsRule compareSetDefaults compile compileDialog_ws compile_cover_dialog compile_dialog_box compile_ecom_dialog compile_edit compile_option_addfile compile_option_extension compile_option_extension_ok compile_option_incdir compile_option_libdir compile_option_macro compile_option_macro_ok compile_option_ok compile_options_dialog compile_systemc_dialog compile_vhdl_dialog compile_vlog_dialog compileorderlist
+clear
+# [H[J
+alias comp
+# alias: comp not defined
+.main clear
+do compile_script.do
+# Compile of address_generator.sv was successful.
+d cmp
+# ambiguous command name "d": dataset datasetOf dataset_open dataset_parse_filename datasetcheck debugVersionString deflate deicon_all delete delete_helper describe destroy destroy_kernel df_context_type dict directory_image disable disablebp disablebp_image divTime dmtcp_coord_quit dmtcp_restore_mode dnd do do_compile do_edit down downarrow draw_source_lines drivers dumpFileToTranscript dumpObjTypes dump_win_hier dumpcov dumpcov_srcobj dumplog64 dumpmsgloghash dw
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+.main clear
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Error: No Design Loaded!
+# Error in macro ./bruh_script.do line 2
+# No Design Loaded!
+#     while executing
+# "restartCmd -f"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval restartCmd $args"
+#     (procedure "restart" line 18)
+#     invoked from within
+# "restart -f"
+.main clear
+vsim work.address_generator_tb -voptargs=+acc
+# vsim work.address_generator_tb -voptargs="+acc" 
+# Start time: 22:06:38 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'addr'. The port definition is at: /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv(10).
+#    Time: 0 ns  Iteration: 0  Instance: /address_generator_tb/dut File: /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv Line: 30
+add wave -r *
+# Saving layout as "pure_wave"
+.mian clear
+# invalid command name ".mian"
+.mian clear
+# invalid command name ".mian"
+.main clear
+run -all
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'addr'. The port definition is at: /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv(10).
+#    Time: 0 ns  Iteration: 0  Instance: /address_generator_tb/dut File: /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv Line: 30
+# 0 ns
+# 74 ns
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+view console
+# Invalid window pattern: console
+view main
+# Invalid window pattern: main
+view tcl
+# Invalid window pattern: tcl
+.main clear
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+clear
+# [H[J
+.main clear
+do run_script.do
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'addr'. The port definition is at: /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv(10).
+#    Time: 0 ns  Iteration: 0  Instance: /address_generator_tb/dut File: /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv Line: 30
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'addr'. The port definition is at: /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv(10).
+#    Time: 0 ns  Iteration: 0  Instance: /address_generator_tb/dut File: /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv Line: 30
+# 0 ns
+# 74 ns
+do res
+# Cannot open macro file: res
+do bruh_script.do 
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 179 ns
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.address_generator_tb(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 179 ns
+quit -sim
+# End time: 22:57:07 on Sep 15,2025, Elapsed time: 0:50:29
+# Errors: 0, Warnings: 2
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of address_generator_tb.sv was successful.
+# Compile of controller.sv failed with 5 errors.
+# 3 compiles, 1 failed with 5 errors.
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv failed with 5 errors.
+# Compile of toplevel_tb.sv was successful.
+# 3 compiles, 1 failed with 5 errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv failed with 5 errors.
+# Compile of toplevel_tb.sv was successful.
+# 3 compiles, 1 failed with 5 errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv failed with 5 errors.
+# Compile of toplevel_tb.sv was successful.
+# 3 compiles, 1 failed with 5 errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.template_tb
+# vsim -voptargs="+acc" work.template_tb 
+# Start time: 23:01:32 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv(30): Module 'toplevel' is not defined.
+#  For instance 'dut' at path 'template_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 23:01:32 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 10
+# Load canceled
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.template_tb
+# vsim -voptargs="+acc" work.template_tb 
+# Start time: 23:02:18 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error (suppressible): /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv(30): (vopt-2912) Port 'en' not found in module 'toplevel' (3rd connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 23:02:18 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.template_tb
+# vsim -voptargs="+acc" work.template_tb 
+# Start time: 23:03:15 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error (suppressible): /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv(30): (vopt-2912) Port 'en' not found in module 'toplevel' (3rd connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 23:03:15 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.template_tb
+# vsim -voptargs="+acc" work.template_tb 
+# Start time: 23:03:59 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error (suppressible): /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv(30): (vopt-2912) Port 'en' not found in module 'toplevel' (3rd connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 23:03:59 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.template_tb
+# vsim -voptargs="+acc" work.template_tb 
+# Start time: 23:06:51 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-143) Recognized 2 FSMs in module "controller(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.template_tb(fast)
+# Loading work.toplevel(fast)
+# Loading work.controller(fast)
+# Loading work.address_generator(fast)
+add wave -r *
+do run_script.do
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-143) Recognized 2 FSMs in module "controller(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.template_tb(fast)
+# Loading work.toplevel(fast)
+# Loading work.controller(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-143) Recognized 1 FSM in module "controller(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.template_tb(fast)
+# Loading work.toplevel(fast)
+# Loading work.controller(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 74 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.template_tb(fast)
+# Loading work.toplevel(fast)
+# Loading work.controller(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 126 ns
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.template_tb(fast)
+# Loading work.toplevel(fast)
+# Loading work.controller(fast)
+# Loading work.address_generator(fast)
+# 0 ns
+# 546 ns
+.main clear
+quit -sim
+# End time: 23:16:46 on Sep 15,2025, Elapsed time: 0:09:55
+# Errors: 0, Warnings: 2
+quit -f
