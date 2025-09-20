@@ -1,23 +1,9 @@
-/home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv
+/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module adder_tb
+-- Compiling module address_generator_tb
 
 Top level modules:
-	adder_tb
-
-} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/adder.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/adder.sv
-Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module adder
-
-Top level modules:
-	adder
-
-} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
-Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module address_generator
-
-Top level modules:
-	address_generator
+	address_generator_tb
 
 } {} {}} /home/wayne/FPGA_stuff/rc1/lab4/controller.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/controller.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
@@ -26,19 +12,40 @@ Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
 Top level modules:
 	controller
 
-} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv
+} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module address_generator_tb
+-- Compiling module address_generator
 
 Top level modules:
-	address_generator_tb
+	address_generator
 
-} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv
+} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/adder.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/adder.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module multiplier
+-- Compiling module adder
 
 Top level modules:
-	multiplier
+	adder
+
+} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/reg.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/reg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module reg_lmao
+
+Top level modules:
+	reg_lmao
+
+} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module template_tb
+
+Top level modules:
+	template_tb
 
 } {} {}} /home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
@@ -47,11 +54,11 @@ Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
 Top level modules:
 	multiplier_tb
 
-} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
+} {} {}} /home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv {1 {vlog -work work -vopt -sv -stats=none /home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module template_tb
+-- Compiling module multiplier
 
 Top level modules:
-	template_tb
+	multiplier
 
 } {} {}}

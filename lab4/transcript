@@ -1,0 +1,118 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project lab4
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of reg.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Break key hit
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of reg.sv was successful.
+# Compile of reg_tb.sv was successful.
+# 10 compiles, 0 failed with no errors.
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of reg.sv was successful.
+# Compile of reg_tb.sv was successful.
+# 10 compiles, 0 failed with no errors.
+do sim_script.doasdf
+# Cannot open macro file: sim_script.doasdf
+do sim_script.do
+# vsim -voptargs="+acc" work.sim_tb 
+# Start time: 12:05:45 on Sep 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: (vopt-11) Could not find work.sim_tb.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim_script.do PAUSED at line 1
+sim
+# wrong # args: should be "sim_image option ?arg ...?"
+do sim_script.do
+# vsim -voptargs="+acc" work.reg_tb 
+# Start time: 12:05:45 on Sep 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=2.
+# Loading sv_std.std
+# Loading work.reg_tb(fast)
+# Loading work.reg_lmao(fast)
+add wave -r *
+do run_script.do
+# 0 ns
+# 95 ns
+do compile_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of reg.sv was successful.
+# Compile of reg_tb.sv was successful.
+# 10 compiles, 0 failed with no errors.
+do bruh_script.do
+# Compile of address_generator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of toplevel_tb.sv was successful.
+# Compile of toplevel.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of reg.sv was successful.
+# Compile of reg_tb.sv was successful.
+# 10 compiles, 0 failed with no errors.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.reg_tb(fast)
+# Loading work.reg_lmao(fast)
+# en works
+# data correct
+# 0 ns
+# 95 ns
+quit -f
+# End time: 12:19:46 on Sep 20,2025, Elapsed time: 0:14:01
+# Errors: 0, Warnings: 2

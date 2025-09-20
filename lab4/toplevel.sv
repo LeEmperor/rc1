@@ -28,6 +28,46 @@ logic [9:0] wire_addr;
 
 // assign outdata = wire_addr;
 
+reg_lmao # (
+  .width(8)
+) in1 (
+  .clk(clk_hifreq),
+  .rst(rst),
+  .en(wire_en),
+  .d(in1),
+  .q(wire_reg_in1)
+);
+
+reg_lmao # (
+  .width(8)
+) in2 (
+  .clk(clk_hifreq),
+  .rst(rst),
+  .en(wire_en),
+  .d(in2),
+  .q(wire_reg_in2)
+);
+
+reg_lmao # (
+  .width(8) 
+) in3 (
+  .clk(clk_hifreq),
+  .rst(rst),
+  .en(wire_en),
+  .d(in3),
+  .q(wire_reg_in3)
+);
+
+reg_lmao # (
+  .width(8) 
+) in4 (
+  .clk(clk_hifreq),
+  .rst(rst),
+  .en(wire_en),
+  .d(in4),
+  .q(wire_reg_in4)
+);
+
 controller control (
   .clk(clk_hifreq),
   .rst(rst),
@@ -70,6 +110,8 @@ adder add1 (
   .b(wire_reg_mult2),
   .out(outdata)
 );
+
+// reg_lmao 
 
 endmodule
 

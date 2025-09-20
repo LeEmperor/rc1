@@ -1,2 +1,2 @@
-vsim -voptargs=+acc work.multiplier_tb
+vsim -voptargs=+acc work.reg_tb
 
