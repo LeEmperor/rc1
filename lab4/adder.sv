@@ -9,15 +9,18 @@ module adder #(
   input logic rst,
   input logic en,
 
-  output logic [width - 1 : 0] a,
-  output logic [width - 1 : 0] b,
-  output logic [width : 0] c 
+  input logic [width - 1 : 0] a,
+  input logic [width - 1 : 0] b,
+  output logic [width : 0] out
 );
+
+// logic [width : 0] wide_a;
+// logic [width : 0] wide_b;
+// logic [width : 0] wide;
 
 always_comb
 begin
-  c[width - 1 : 0] = a + b;
-  c[width] = 
+  out[width : 0] = {1'b0, a} + {1'b0, b};
 end
 
 endmodule

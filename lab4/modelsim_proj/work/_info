@@ -1,26 +1,42 @@
 m255
 K4
 z2
-!s12c _opt2
-Z0 !s99 nomlopt
-Z1 !s12c _opt1
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
 R0
 R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
 Z2 !s12c _opt
-R0
+R1
 R2
-R0
+R1
 R2
-R0
+R1
 R2
+R1
+R2
+R1
+R2
+R1
+!s12c _opt2
+R1
 R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
 !s11f vlog 2024.3 2024.09, Sep 10 2024
 13
 !s112 1.1
@@ -30,78 +46,128 @@ R0
 cModel Technology
 Z3 d/home/wayne/FPGA_stuff/rc1/lab4/modelsim_proj
 T_opt
-!s110 1757988618
-VT64nNF7MWT^>DPJlcM@033
-04 20 4 work address_generator_tb fast 0
-=7-000ae431a4f1-68c8c70a-902f2-4f45
-R0
+!s110 1758328661
+VnPKSXDRUPKDMiYYkb26ZI3
+04 8 4 work adder_tb fast 0
+=7-000ae431a4f1-68cdf755-a61e6-1802
+R1
 Z4 !s12f OEM100
 Z5 !s12b OEM100
-!s124 OEM10U2 
-Z6 !s135 nogc
-Z7 o-quiet -auto_acc_if_foreign -work work +acc
-Z8 tCvgOpt 0
+Z6 !s124 OEM10U2 
+Z7 !s135 nogc
+Z8 o-quiet -auto_acc_if_foreign -work work +acc
+Z9 tCvgOpt 0
 n@_opt
-Z9 OL;O;2024.3;79
+Z10 OL;O;2024.3;79
 R3
 T_opt1
-!s110 1757992582
-VAHk@KzflX:^2Pjl6J8@`02
-Z10 04 11 4 work template_tb fast 0
-=5-000ae431a4f1-68c8d685-ea5e5-5efa
-R0
+!s110 1758329882
+VK`alZ=DKJR66^Rzn6CKOj0
+04 13 4 work multiplier_tb fast 0
+=3-000ae431a4f1-68cdfc1a-45a-2701
+R1
 R4
 R5
-Z11 !s124 OEM10U4 
 R6
 R7
 R8
-n@_opt1
 R9
+n@_opt1
+R10
 R3
 T_opt2
 !s110 1758039916
 VeF^33:1C;c4]LaOi`4Hi_3
-R10
+04 11 4 work template_tb fast 0
 =1-000ae431a4f1-68c98f6b-dedae-f84
-R0
+R1
 R4
 R5
-R11
-R6
+!s124 OEM10U4 
+R7
 o-quiet -auto_acc_if_foreign -work work
-R8
-n@_opt2
 R9
+n@_opt2
+R10
 R3
+vadder
+2/home/wayne/FPGA_stuff/rc1/lab4/adder.sv
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 !s110 1758330744
+!i10b 1
+!s100 n4IR<6>>EXaZSRIEmI7^l3
+I8>Nz=>592;X1JXGFXEKlS0
+S1
+R3
+w1758329392
+8/home/wayne/FPGA_stuff/rc1/lab4/adder.sv
+F/home/wayne/FPGA_stuff/rc1/lab4/adder.sv
+!i122 263
+L0 5 22
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z15 !s108 1758330744.000000
+!s107 /home/wayne/FPGA_stuff/rc1/lab4/adder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/adder.sv|
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vadder_tb
+2/home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv
+R11
+R12
+!i10b 1
+!s100 WHQlVR5R1>cSR77efcfC20
+IQi:ZokJPNbR=]kf2Q;kbW0
+S1
+R3
+w1758328765
+8/home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv
+F/home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv
+!i122 264
+Z17 L0 5 64
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 /home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/testbenches/adder_tb.sv|
+!i113 0
+R16
+R9
 vaddress_generator
 2/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
-Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z13 !s110 1758040045
+R11
+Z18 !s110 1758330743
 !i10b 1
 !s100 CDXaIonK[APNKRiX>O6X`0
 I0j7K3anz4kO_d6^M31f^L0
 S1
 R3
-Z14 w1757992673
+w1758042880
 8/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv
-!i122 83
+!i122 259
 L0 5 32
-Z15 VDg1SIo80bB@j0V0VzS_@n1
-Z16 OL;L;2024.3;79
+R13
+R14
 r1
 !s85 0
 31
-Z17 !s108 1758040045.000000
+Z19 !s108 1758330743.000000
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/address_generator.sv|
 !i113 0
-Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R8
+R16
+R9
 vaddress_generator_tb
 2/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv
-R12
+R11
 !s110 1757991495
 !i10b 1
 !s100 PNCN4RO2le6eO<Ya@`UOB0
@@ -113,8 +179,8 @@ w1757988993
 F/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv
 !i122 33
 L0 5 65
-R15
-R16
+R13
+R14
 r1
 !s85 0
 31
@@ -122,80 +188,130 @@ r1
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/testbenches/address_generator_tb.sv|
 !i113 0
-R18
-R8
+R16
+R9
 vcontroller
 2/home/wayne/FPGA_stuff/rc1/lab4/controller.sv
-R12
-R13
+R11
+R18
 !i10b 1
 !s100 ADjM5HG_BnVoInAKE@z5d3
 ISI?i<IXEEM[52;Eh>mWhN3
 S1
 R3
-R14
+w1757992673
 8/home/wayne/FPGA_stuff/rc1/lab4/controller.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/controller.sv
-!i122 84
-L0 5 64
-R15
-R16
+!i122 260
+R17
+R13
+R14
 r1
 !s85 0
 31
-R17
+R19
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/controller.sv|
 !i113 0
-R18
-R8
+R16
+R9
+vmultiplier
+2/home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv
+R11
+R12
+!i10b 1
+!s100 3B]cG7K9`dO2c[TKUkmG^0
+I;U:F`ShbicA:zQM]ZSFYj2
+S1
+R3
+w1758330038
+8/home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv
+F/home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv
+!i122 265
+L0 5 18
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 /home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/multiplier.sv|
+!i113 0
+R16
+R9
+vmultiplier_tb
+2/home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv
+R11
+R12
+!i10b 1
+!s100 m@jMmUFWSjXOTTdk[lK2e1
+Iic8]2=50R@Ga=iY0^PaKj2
+S1
+R3
+w1758329780
+8/home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv
+F/home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv
+!i122 266
+L0 5 56
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 /home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/testbenches/multiplier_tb.sv|
+!i113 0
+R16
+R9
 vtemplate_tb
 2/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
-R12
-R13
+R11
+R18
 !i10b 1
 !s100 0Z3lib]==a=WjE?B<<oS:2
 IaaUZfRNM@N1Ie@1^PgGk72
 S1
 R3
-R14
+w1758043157
 8/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv
-!i122 85
+!i122 261
 L0 5 58
-R15
-R16
+R13
+R14
 r1
 !s85 0
 31
-R17
+R19
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/testbenches/toplevel_tb.sv|
 !i113 0
-R18
-R8
+R16
+R9
 vtoplevel
 2/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv
-R12
-!s110 1758040046
+R11
+R18
 !i10b 1
-!s100 XB>;6>_Rmo[JF5on:`>>V3
-I[CPWUF_KEonlRA<?TZ?=I1
+!s100 C<^eWLkL]HJV42YDLUmI]3
+IPQWaL6GiU4G:Ikm@OhO:n0
 S1
 R3
-R14
+w1758330740
 8/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv
 F/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv
-!i122 86
-L0 5 31
-R15
-R16
+!i122 262
+L0 5 70
+R13
+R14
 r1
 !s85 0
 31
-R17
+R19
 !s107 /home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/wayne/FPGA_stuff/rc1/lab4/toplevel.sv|
 !i113 0
-R18
-R8
+R16
+R9
